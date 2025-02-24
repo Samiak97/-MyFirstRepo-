@@ -1,1 +1,92 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style navigation */
+nav ul {
+    list-style-type: square;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav ul li::marker {
+    color: #ffcc00;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:visited {
+    color: #d3d3d3;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+nav a:active {
+    color: #ff6600;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+/* Main content styles */
+main {
+    width: calc(70% - 1px);
+    float: left;
+    padding: 2rem;
+    background: white;
+    border-right: 2px solid #ccc;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Aside styles */
+aside {
+    width: 28%;
+    float: right;
+    padding: 2rem;
+    background: #e0e0e0;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    clear: both;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1rem;
+}
 
